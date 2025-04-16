@@ -1,6 +1,7 @@
 🚀 Terraform AWS VPC + ALB Project
 This project demonstrates how to use Terraform to provision a fully functional VPC with subnets, route tables, internet gateway, and an Application Load Balancer (ALB) in AWS.
 
+
 ✅ Features
 🔧 Modular Terraform setup for clean and reusable code
 
@@ -14,6 +15,8 @@ This project demonstrates how to use Terraform to provision a fully functional V
 
 ☁️ EC2 instances behind the ALB for a basic web tier
 
+
+
 📁 Project Structure
 
 terraform-vpc-alb/
@@ -24,6 +27,8 @@ terraform-vpc-alb/
 ├── variables.tf      # Variable declarations
 └── terraform.tfvars  # Custom input variables
 
+
+
 💡 What You’ll Learn
 How to structure Terraform projects using modules
 
@@ -33,12 +38,15 @@ How to build a scalable VPC network architecture
 
 How to deploy an ALB and connect it to EC2 instances
 
+
 📌 Prerequisites
 AWS account with IAM credentials
 
 Terraform installed locally (v1.x+)
 
 AWS CLI configured
+
+
 
 🧪 How to Use
 
